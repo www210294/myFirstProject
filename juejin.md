@@ -1,0 +1,16 @@
+初始化
+
+componentWillMount 初始化调用，只调用一次render 渲染页面
+componentDidMount 第一次渲染后调用
+
+更新
+
+componentWillReceireProps 接收新的props时调用
+shouldComponentUpdate state或props改变时调用
+componentWillUpdate 将要更新时调用，可改变state的值render
+componentDidUpdate 更新后调用
+
+卸载
+
+componentWillUnMount
+hahahhah
